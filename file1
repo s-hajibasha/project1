@@ -1,0 +1,6 @@
+#!/bin/bash
+ec2-user
+sudo -i
+cd /var/www/html
+echo"welcome to linux">index.html
+service httpd restart
